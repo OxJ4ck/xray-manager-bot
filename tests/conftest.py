@@ -7,9 +7,9 @@ from sqlalchemy.exc import IntegrityError
 
 # This next line ensures tests uses its own database and settings environment
 os.environ["FORCE_ENV_FOR_DYNACONF"] = "testing"  # noqa
-# WARNING: Ensure imports from `project_name` comes after this line
-from project_name import app, settings, db  # noqa
-from project_name.cli import create_user, cli  # noqa
+# WARNING: Ensure imports from `xray_manager_bot` comes after this line
+from xray_manager_bot import app, settings, db  # noqa
+from xray_manager_bot.cli import create_user, cli  # noqa
 
 
 # each test runs on cwd to its temp dir

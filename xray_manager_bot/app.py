@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+xray_manager_bot API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="xray_manager_bot",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://xray_manager_bot.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "OxJ4ck",
+        "url": "http://xray_manager_bot.com/contact/",
+        "email": "OxJ4ck@xray_manager_bot.com",
     },
     license_info={
         "name": "The Unlicense",
